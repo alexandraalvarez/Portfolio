@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@600&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Mali:wght@600&family=Open+Sans:wght@400;700&display=swap');
+
+/*
+colores: 
+#B3D4D4 lavanda pálido /// #C1A5C2 lavanda original canva intermedio /// #BA7FC2 lavanda actual canva intenso
+#73020C rojo lentes /// #C2A422 vestido mostaza ///  #72A603 verde hojitas soleadas
+/// #BF8975 rosa grisáceo*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #B3D4D4;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Imprima', sans-serif;
+}
+.logo {
+    font-family: 'Mali', cursive;
+}
