@@ -4,20 +4,57 @@
 
 /*
 colores: 
-#B3D4D4 lavanda pálido /// #C1A5C2 lavanda original canva intermedio /// #BA7FC2 lavanda actual canva intenso
-#73020C rojo lentes /// #C2A422 vestido mostaza ///  #72A603 verde hojitas soleadas
-/// #BF8975 rosa grisáceo*/
+#C1A5C2 lavanda original canva intermedio /// #BA7FC2 lavanda actual canva intenso /// #BF8975 rosa grisáceo
+#73020C rojo lentes /// #C2A422 vestido mostaza ///  #72A603 verde hojitas soleadas*/
 
+/*estilos generales*/
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #B3D4D4;
+    background-color: #C1A5C2;
 }
 h1, h2, h3, h4, h5 {
     font-family: 'Imprima', sans-serif;
 }
+/*estilos nav*/
+nav {
+    background-color: #73020C;
+    font-family: 'Imprima', sans-serif;
+}
 .logo {
     font-family: 'Mali', cursive;
+    font-size: 2.5em;
 }
-#divKnowMe {
+/*estilos header*/
+#headerKnowMe {
     background-image: url(/assets/img/perfil-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 48em;
+    margin-top: 5.75em;
 }
+.spanHeadColor {
+    color: #73020C;
+}
+/*estilos mi experiencia*/
+#myExper {
+    background-color: #FFFFFF;    
+}
+/*estilos herramientas*/
+#tools {
+    background-color: #72A603;
+}
+/*estilos contáctame*/
+#contactMe {
+    background-color: #FFFFFF;
+}
+/*estilos footer*/
+footer {
+    background-color: #73020C;
+    font-family: 'Imprima', sans-serif;
+}
+
+

@@ -14,37 +14,36 @@
     <title>Alexandra</title>
 </head>
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-white mb-2">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                
-            </a>
+            <h1 class="navbar-brand logo">Alexandra</h1>
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item nav-link active" href="#">Conóceme<span class="sr-only">(current)</span></li>
-                    <li><a class="nav-item nav-link active" href="#">Mi experiencia</a></li>
-                    <li><a class="nav-item nav-link active" href="#">Mis trabajo</a></li>
-                    <li><a class="nav-item nav-link active" href="#">Contáctame</a></li>
+                    <li class="nav-item nav-link active" href="#knowMe">Conóceme<span class="sr-only">(current)</span></li>
+                    <li><a class="nav-item nav-link active" href="#myExper">Mi experiencia</a></li>
+                    <li><a class="nav-item nav-link active" href="#myWork">Mis trabajos</a></li>
+                    <li><a class="nav-item nav-link active" href="#contactMe">Contáctame</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class=" text-white d-flex justify-content-end align-items-end text-right py-5 mt-4 ">
-        <div id="divKnowMe" class="container mb-3">
-          <h1 class="titles me display-3 font-weight-bold">Alexandra</h1>
-          <h2 class="titles me ">Diseñadora UX/UI - Front end junior</h2>
+    <header id="headerKnowMe" class="container-fluid d-flex justify-content-end align-items-end text-right text-white py-5">
+        <div  class="mb-3">
+          <h1 class="display-3 font-weight-bold text-white logo">Alexandra</h1>
+          <h3 class="h3HeadColor font-weight-bold text-white mt-4">Diseñadora <span class="spanHeadColor">UX/UI-Front end junior</span> </h3>
         </div>
     </header>
 
-    <section  class="container text-center my-5 d-none d-sm-block">
-        <h2 class="titles font-weight-bold display-3 my-3">Sobre mí</h2>
-        <hr>
-        <div class="row">
+    <section id="knowMe" class="container text-center my-5 d-none d-sm-block">
+        <h1 class="titles font-weight-bold my-3">CONÓCEME</h1>
+        <h4>Un poco sobre mi</h4>
+        <div class="row border-top">
           <div class="col-md-6">
             <p class="my-3 text-justify">Soy Alexandra, diseñadora UX/UI y front end junior. Busco entender el universo, la sociedad y a las 
                 personas a través de la investigación racional y emocional. Mi mentalidad de crecimiento me permite estar en constante 
@@ -62,15 +61,13 @@
         </div>
     </section>
 
-    <section id="exp">
+    <section id="myExper">
         <div class="container">
-          <div class="row mt-5">
-            <div class="col">
-            <h1 class="title">Mi experiencia</h1>
-            <h4 class="text-center">Un poco sobre mi carrera</h4>
-          </div>
-        </div>
         <div class="row">
+            <div class="col xs-12 col-sm-12 col-md-12 text-center border-bottom mt-5">
+                <h1>EXPERIENCIA</h1>
+                <h4>Algunos empleos</h4>
+              </div>
           <div class="col-xs-12 col-sm-12 col-md-4 pt-4 py-2">
             <h3 class="exp-title">Sermaluc</h3>
             <h5>Diseñadora 2018 - 2019</h5>
@@ -87,7 +84,7 @@
           </div>
           <div class="col-xs-12 col-sm-12 col-md-4 px-4 py-2">
             <h3 class="exp-title">Front end trainee</h3>
-            <h5>Estudiante bootcamp Talento Digital 2018 - 2019</h5>
+            <h5>Estudiante bootcamp Talento Digital 2020</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis magni eius non
                 delectus expedita minima sit, odio soluta error maxime hic quo corrupti veniam vero ut facilis
                 libero aspernatur voluptates.</p>
@@ -96,54 +93,46 @@
       </div>  
     </section>
 
-    <section>
-        <div class="container d-none d-md-block my-5 py-3">
+    <section id="tools" class="py-5">
+        <div class="container d-none d-md-block text-white">
             <div class="row">
-
-                <div class="col-12 text-center">
-                    <h2 class="font-weight-bold titles">HERRAMIENTAS UTILIZADAS</h2>
+                <div class="col-12 text-center border-bottom">
+                    <h1 class="font-weight-bold">HERRAMIENTAS</h1>
+                    <h4>Con las que he trabajado</h4>
                 </div>
-
-                <div class="col-10 bg-white text-dark rounded pt-4 pb-5">
+                <div class="col-12 rounded pt-5 pb-5">
                     <div id="blogCarousel" class="carousel slide" data-ride="carousel">
-
-                        <ol class="carousel-indicators">
-                            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#blogCarousel" data-slide-to="1"></li>
-                        </ol>
-
                         <div class="carousel-inner">
-
                             <div class="carousel-item active text-center">
                                <div class="row">
                                     <div class="col-3">
-                                        <i class="fab fa-html5 fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="HTML5"></i>
+                                        <i class="fab fa-html5 fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="HTML5"></i>
                                     </div>
                                     <div class="col-3">
-                                        <i class="fab fa-js-square fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="JavaScript"></i>
+                                        <i class="fab fa-css3-alt fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="CSS3"></i>
                                     </div>
                                     <div class="col-3">
-                                        <i class="fab fa-java fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Java"></i>
+                                        <i class="fab fa-js fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="JavaScript"></i>
                                     </div>
+                                    
                                     <div class="col-3">
-                                        <i class="fab fa-php fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="PHP"></i>
+                                        <i class="fab fa-github fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="PHP"></i>
                                     </div>
                                 </div>
                             </div>
-      
                             <div class="carousel-item text-center">
                                 <div class="row">
                                     <div class="col-3">
-                                        <i class="fab fa-laravel fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Laravel"></i>
+                                        <i class="fab fa-invision fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Invision"></i>
                                     </div>
                                     <div class="col-3">
-                                        <i class="fas fa-database fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="SQL"></i>
+                                        <i class="fab fa-sketch fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Sketch"></i>
                                     </div>
                                     <div class="col-3">
-                                        <i class="fab fa-css3-alt fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="CSS"></i>
+                                        <i class="fab fa-sass fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Sass"></i>
                                     </div>
                                     <div class="col-3">
-                                        <i class="fab fa-sass fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Sass"></i>
+                                        <i class="fab fa-vuejs fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Vue"></i>
                                     </div>
                                 </div>
                             </div>
@@ -154,30 +143,29 @@
         </div>
     </section>
 
-    <section id="work">
+    <section id="myWork">
         <div class="container">
-          <div class="row mt-5">
-            <div class="col">
-              <h1 class="title">Trabajos</h1>
-              <h4 class="text-center">Mi selección</h4>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-4">
+            <div class="row mt-5">
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center border-bottom">
+                    <h1>TRABAJOS</h1>
+                    <h4>Mi selección</h4>
+                  </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 pt-3">
                     <img src="assets/img/cuppon.png" class="img-fluid py-2 mx-auto d-block" alt=""><a href="https://alexandraalvarez.github.io/cuppon/"></a>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4"> 
+                <div class="col-xs-12 col-sm-12 col-md-4 pt-3"> 
                     <img src="assets/img/suricata-comidas.png" class="img-fluid py-2 mx-auto d-block" alt=""><a href="https://alexandraalvarez.github.io/suricata/"></a>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 pt-3">
                     <img src="assets/img/ricomida.png" class="img-fluid py-2 mx-auto d-block" alt=""><a href="https://alexandraalvarez.github.io/ricomida/"></a>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 pb-5">
                     <img src="assets/img/iguanas.png" class="img-fluid py-2 mx-auto d-block" alt=""><a href="https://alexandraalvarez.github.io/iguana-page/"></a>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 pb-5">
                     <img src="assets/img/social-movie.png" class="img-fluid py-2 mx-auto d-block" alt=""><a href=" https://alexandraalvarez.github.io/social-movie/"></a>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 pb-5">
                     <img src="assets/img/meet-coffee.png" class="img-fluid py-2 mx-auto d-block" alt=""><a href="https://alexandraalvarez.github.io/meet-coffee/"></a>
                 </div>
             </div>
@@ -185,7 +173,7 @@
         </div>
       </section>
 
-      <section class="py-5">
+      <section id="contactMe" class="py-5">
         <div class="container-fluid contacto-fondo">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -218,20 +206,15 @@
         </div>
     </section>
 
-    <footer class="bg-purple py-4 text-center">
+    <footer class="text-center py-4">
         <div class="iconos d-inline px-3">
             <a class="text-white" href="https://github.com/alexandraalvarez">
-                <i data-toggle="tooltip" data-placement="bottom" title="Github" class=" fab fa-github-alt"></i>
+                <i class=" fab fa-github-alt fa-3x" data-toggle="tooltip" data-placement="bottom" title="Github"></i>
             </a>
         </div>
         <div class="iconos d-inline px-3">
             <a class="text-white" href="https://www.linkedin.com/in/alexandra-mabel-alvarez-alday">
-                <i data-toggle="tooltip" data-placement="bottom" title="LinkedIN" class="fab fa-linkedin"></i>
-            </a>
-        </div>
-        <div class="iconos d-inline px-3">
-            <a class="text-white " href="">
-                <i data-toggle="tooltip" data-placement="bottom" title="Correo" class="far fa-envelope"></i>
+                <i class="fab fa-linkedin fa-3x" data-toggle="tooltip" data-placement="bottom" title="LinkedIN"></i>
             </a>
         </div>
     </footer>
